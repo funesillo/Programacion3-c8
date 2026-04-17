@@ -1,0 +1,10 @@
+Ejercicio a realizar: 
+
+En C#: necesito almacenar en el sistema 20 nombres que van a ingresar los clientes con sus respectivas edades y solo aquellos que sean mayor de 30 años podrán ingresar al boliche.
+ Quienes tengan menos de 30 mostrar mensaje “a la casa”
+
+Se crearon 2 variables de tipo Array uno como string y el otro como int, con la intencion de alamacenar nombres y edades limitados a 20 datos c/u.
+Despues se establece un bucle FOR inicializado en 0 con una carga limite de datos hasta 20. 
+Las Variables se encuentran iniciadas dentro del bucle y cada vez q inicie una iteracion el usuario cargara un nombre y su respectiva edad.
+La estructura de control IF verifica la edad de la persona y dependiendo de si esta es mayor, puede ingresar al establecimiento, en caso contrario se va "a casa"
+El segundo Bucle FOR tiene la funcion de listar todos los datos dentro de la variable una vez que termina de cargarlos.
